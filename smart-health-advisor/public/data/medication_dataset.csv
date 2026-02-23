@@ -1,0 +1,101 @@
+Name,Gender,Symptoms,Causes,Disease,Medicine,RiskFactors,SourceReference
+Daniel Smith,Male,"Frequent urination, Burning",Bacterial infection,Uncomplicated lower UTI,Nitrofurantoin,Elderly – dose reduction considered,"WHO Model List of Essential Medicines (WHO, 2023)"
+Daniel Bose,Female,"Chest tightness, Cough",Exercise induced,Exercise-induced bronchospasm,Albuterol (salbutamol) inhaler,Pregnancy – drug dose adjusted,"StatPearls – Albuterol (NCBI Bookshelf, 2024)"
+Noah Gomez,Male,"Back pain, Limited movement",Musculoskeletal strain,Acute Low Back Pain,Ibuprofen,On anticoagulant therapy – watch interactions,"WHO Model List of Essential Medicines (WHO, 2023)"
+Carlos Khan,Male,"Palpitations, Sweating",Thyroid/Anxiety,Supraventricular tachycardia / Anxiety,"Beta-blocker (e.g., propranolol)",Penicillin tolerant (no allergy),NICE / WHO guidance (class-level)
+Liam Bose,Female,"Back pain, Limited movement",Musculoskeletal strain,Acute Low Back Pain,Ibuprofen,Penicillin tolerant (no allergy),"WHO Model List of Essential Medicines (WHO, 2023)"
+Maria Patel,Male,"Heartburn, Regurgitation",Lifestyle factors,GERD,Omeprazole,History of gastritis – avoid NSAIDs,NICE GERD Treatment Guideline (2023)
+Ananya Sharma,Female,"Severe sore throat, Difficulty swallowing",Tonsillitis,Tonsillitis (bacterial likely),Amoxicillin,Pregnancy – drug dose adjusted,WHO antibiotic guidance
+Sophia Doe,Male,"Sore red eye, Discharge",Bacterial conjunctivitis,Conjunctivitis,"Topical antibiotic (e.g., chloramphenicol eye drops)",Pregnancy – drug dose adjusted,WHO essential meds or local formularies
+Emily Chen,Male,"High fever, Severe cough",Pneumonia,Community-acquired pneumonia,Amoxicillin (or amoxicillin-clavulanate depending),History of bleeding disorder – caution with NSAIDs,WHO antibiotic guidelines
+John Smith,Male,"Frequent urination, Burning",Bacterial infection,Uncomplicated lower UTI,Nitrofurantoin,On anticoagulant therapy – watch interactions,"WHO Model List of Essential Medicines (WHO, 2023)"
+Neha Rao,Female,"Joint pain, Swelling",Inflammatory process,Osteoarthritis flare,Ibuprofen,Asthma – avoid beta-blockers,"WHO Model List of Essential Medicines (WHO, 2023)"
+Nina Rahman,Female,"Productive cough, Fever",Bacterial bronchitis/pneumonia,Lower respiratory infection,Amoxicillin,Elderly – dose reduction considered,WHO antibiotic guidance
+Noah Chen,Female,"Polyuria, Polydipsia",Metabolic risk,Type 2 Diabetes,Metformin,Pregnancy – drug dose adjusted,"WHO Model List of Essential Medicines (WHO, 2023)"
+Rohan Chen,Female,"Back pain, Limited movement",Musculoskeletal strain,Acute Low Back Pain,Ibuprofen,Allergic to penicillin,"WHO Model List of Essential Medicines (WHO, 2023)"
+Carlos Rahman,Male,"Shortness of breath, Wheeze",Allergens,Asthma,Albuterol (salbutamol) inhaler,On anticoagulant therapy – watch interactions,"StatPearls – Albuterol (NCBI Bookshelf, 2024)"
+Rahul Doe,Male,"Headache, Fatigue",Tension/Stress,Tension Headache,Paracetamol,Asthma – avoid beta-blockers,"WHO Model List of Essential Medicines (WHO, 2023)"
+Carlos Kumar,Female,"Chest pain on exertion, SOB",Atherosclerotic risk,Ischemic heart disease risk/Hypertension,Lisinopril,Diabetic – monitor glucose,WHO Hypertension Guideline (2023)"
+Noah Verma,Female,"Nausea, Vomiting",Gastritis/NSAID,Gastritis,Omeprazole,Chronic kidney disease – avoid metformin if severe,NICE GERD Treatment Guideline (2023)"
+Liam Rahman,Male,"Frequent headaches, Visual aura",Migraine,Migraine,Sumatriptan,Allergic to NSAIDs,"StatPearls – Sumatriptan (NCBI Bookshelf, 2024)"
+Carlos Patel,Male,"Chest tightness, Cough",Exercise induced,Exercise-induced bronchospasm,Albuterol (salbutamol) inhaler,Allergic to penicillin,"StatPearls – Albuterol (NCBI Bookshelf, 2024)"
+Sara Smith,Female,"Polyuria, Polydipsia",Metabolic risk,Type 2 Diabetes,Metformin,History of gastritis – avoid NSAIDs,"WHO Model List of Essential Medicines (WHO, 2023)"
+Noah Rahman,Female,"Acute localized pain, Swelling",Bacterial infection,Cellulitis,Amoxicillin-clavulanate,History of bleeding disorder – caution with NSAIDs,WHO/Essential antibiotics guidance
+Ethan Khan,Male,"Frequent urination, Burning",Bacterial infection,Uncomplicated lower UTI,Nitrofurantoin,Penicillin tolerant (no allergy),"WHO Model List of Essential Medicines (WHO, 2023)"
+Ananya Khan,Male,"Headache, Fatigue",Tension/Stress,Tension Headache,Paracetamol,Penicillin tolerant (no allergy),"WHO Model List of Essential Medicines (WHO, 2023)"
+Sara Verma,Male,"Dyspepsia, Acid reflux",H. pylori or lifestyle,Peptic symptoms/GERD,Omeprazole,Allergic to penicillin,NICE GERD Treatment Guideline (2023)"
+Noah Kumar,Female,"Heel pain, Worse with activity",Overuse,Plantar fasciitis,"NSAID (e.g., ibuprofen)",No known allergies,"WHO Model List of Essential Medicines (WHO, 2023)"
+Maria Sharma,Female,"Joint pain, Swelling",Inflammatory process,Osteoarthritis flare,Ibuprofen,On anticoagulant therapy – watch interactions,"WHO Model List of Essential Medicines (WHO, 2023)"
+Nina Verma,Female,Acute severe pain post-op,Postoperative inflammation,Acute pain,Ibuprofen,Elderly – dose reduction considered,"WHO Model List of Essential Medicines (WHO, 2023)"
+Arjun Kumar,Female,"High fever, Severe cough",Pneumonia,Community-acquired pneumonia,Amoxicillin (or amoxicillin-clavulanate depending),Diabetic – monitor glucose,WHO antibiotic guidelines
+Maya Patel,Female,"Frequent headaches, Visual aura",Migraine,Migraine,Sumatriptan,History of gastritis – avoid NSAIDs,"StatPearls – Sumatriptan (NCBI Bookshelf, 2024)"
+Kriti Gupta,Male,"Chest pain on exertion, SOB",Atherosclerotic risk,Ischemic heart disease risk/Hypertension,Lisinopril,Allergic to penicillin,WHO Hypertension Guideline (2023)
+Ahmed Doe,Male,"Fever, Cough",Viral infection,Common Cold,Paracetamol,Allergic to ACE inhibitors,"WHO Model List of Essential Medicines (WHO, 2023)"
+Aisha Gupta,Male,"Palpitations, Sweating",Thyroid/Anxiety,Supraventricular tachycardia / Anxiety,"Beta-blocker (e.g., propranolol)",Liver impairment – dose adjustment needed,NICE / WHO guidance (class-level)
+Kriti Singh,Male,"Localized pain, Redness after insect bite",Bacterial infection,Cellulitis,Flucloxacillin (or amoxicillin-clavulanate depending region),Elderly – dose reduction considered,WHO/local antibiotic guidance
+Priya Smith,Female,"Depressed mood, Sleep disturbance",Psychosocial stressors,Depression,Sertraline,Diabetic – monitor glucose,NICE Depression Treatment (2022)
+Noah Chen,Male,"Acute localized pain, Swelling",Bacterial infection,Cellulitis,Amoxicillin-clavulanate,Pregnancy – drug dose adjusted,WHO/Essential antibiotics guidance
+Jane Gomez,Male,"Dyspepsia, Acid reflux",H. pylori or lifestyle,Peptic symptoms/GERD,Omeprazole,Liver impairment – dose adjustment needed,NICE GERD Treatment Guideline (2023)
+Ananya Khan,Female,"Frequent headaches, Visual aura",Migraine,Migraine,Sumatriptan,Allergic to ACE inhibitors,"StatPearls – Sumatriptan (NCBI Bookshelf, 2024)"
+Kriti Bose,Female,"Headache, Photophobia",Migraine triggers,Migraine,Sumatriptan,Allergic to NSAIDs,"StatPearls – Sumatriptan (NCBI Bookshelf, 2024)"
+David Singh,Male,"Heartburn, Regurgitation",Lifestyle factors,GERD,Omeprazole,Allergic to ACE inhibitors,NICE GERD Treatment Guideline (2023)
+Emily Rao,Male,"Severe sore throat, Difficulty swallowing",Tonsillitis,Tonsillitis (bacterial likely),Amoxicillin,On anticoagulant therapy – watch interactions,WHO antibiotic guidance
+John Rahman,Male,"Severe sore throat, Difficulty swallowing",Tonsillitis,Tonsillitis (bacterial likely),Amoxicillin,Penicillin tolerant (no allergy),WHO antibiotic guidance
+Ahmed Gomez,Male,"Severe allergic swelling, Difficulty breathing",Anaphylaxis,Anaphylaxis,Epinephrine (IM),History of bleeding disorder – caution with NSAIDs,WHO emergency medicines list
+Vikram Gomez,Female,"Heartburn, Regurgitation",Lifestyle factors,GERD,Omeprazole,History of bleeding disorder – caution with NSAIDs,NICE GERD Treatment Guideline (2023)
+Neha Patel,Female,"Heartburn, Regurgitation",Lifestyle factors,GERD,Omeprazole,Allergic to penicillin,NICE GERD Treatment Guideline (2023)
+Carlos Chen,Female,"Headache, Fatigue",Tension/Stress,Tension Headache,Paracetamol,Allergic to NSAIDs,"WHO Model List of Essential Medicines (WHO, 2023)"
+Sara Rao,Female,"Back pain, Limited movement",Musculoskeletal strain,Acute Low Back Pain,Ibuprofen,Allergic to ACE inhibitors,"WHO Model List of Essential Medicines (WHO, 2023)"
+Daniel Sharma,Male,Acute severe pain post-op,Postoperative inflammation,Acute pain,Ibuprofen,Allergic to ACE inhibitors,"WHO Model List of Essential Medicines (WHO, 2023)"
+John Rahman,Female,"Headache, Fatigue",Tension/Stress,Tension Headache,Paracetamol,No known allergies,"WHO Model List of Essential Medicines (WHO, 2023)"
+Nina Patel,Female,"High fever, Severe cough",Pneumonia,Community-acquired pneumonia,Amoxicillin (or amoxicillin-clavulanate depending),Allergic to penicillin,WHO antibiotic guidelines
+Ahmed Doe,Male,"Sore red eye, Discharge",Bacterial conjunctivitis,Conjunctivitis,"Topical antibiotic (e.g., chloramphenicol eye drops)",Diabetic – monitor glucose,WHO essential meds or local formularies
+Rohan Khan,Male,"Severe allergic swelling, Difficulty breathing",Anaphylaxis,Anaphylaxis,Epinephrine (IM),Elderly – dose reduction considered,WHO emergency medicines list
+Liam Gomez,Female,"Palpitations, Sweating",Thyroid/Anxiety,Supraventricular tachycardia / Anxiety,"Beta-blocker (e.g., propranolol)",Chronic kidney disease – avoid metformin if severe,NICE / WHO guidance (class-level)
+Maria Kumar,Male,"Uncontrolled blood sugar, Weight loss",Type 2 Diabetes progression,Type 2 Diabetes,Metformin,Allergic to penicillin,"WHO Model List of Essential Medicines (WHO, 2023)"
+Isha Verma,Female,"Chest tightness, Cough",Exercise induced,Exercise-induced bronchospasm,Albuterol (salbutamol) inhaler,Allergic to NSAIDs,"StatPearls – Albuterol (NCBI Bookshelf, 2024)"
+Aisha Chen,Male,"Fever, Cough",Viral infection,Common Cold,Paracetamol,Penicillin tolerant (no allergy),"WHO Model List of Essential Medicines (WHO, 2023)"
+Lucas Smith,Female,"Severe allergic swelling, Difficulty breathing",Anaphylaxis,Anaphylaxis,Epinephrine (IM),Asthma – avoid beta-blockers,WHO emergency medicines list
+Lucas Patel,Female,"Joint pain, Swelling",Inflammatory process,Osteoarthritis flare,Ibuprofen,History of bleeding disorder – caution with NSAIDs,"WHO Model List of Essential Medicines (WHO, 2023)"
+Emily Doe,Male,"Shortness of breath, Wheeze",Allergens,Asthma,Albuterol (salbutamol) inhaler,Pregnancy – drug dose adjusted,"StatPearls – Albuterol (NCBI Bookshelf, 2024)"
+Noah Rahman,Female,"Sore throat, Fever",Bacterial pharyngitis,Pharyngitis,Amoxicillin,Pregnancy – drug dose adjusted,"WHO Model List of Essential Medicines (WHO, 2023)"
+Pooja Sharma,Female,Burning epigastric pain,Acid overproduction,Peptic Ulcer Disease,Omeprazole,Family history of diabetes,NICE GERD Guideline
+Anil Malhotra,Male,"Blurred vision, High glucose",Poor glycemic control,Type 2 Diabetes,Metformin,Hypertensive – BP monitored,WHO Essential Medicines List
+Sneha Iyer,Female,Lower abdominal pain,Bacterial infection,UTI,Nitrofurantoin,Family history of diabetes,WHO Essential Medicines List
+Sahil Iyer,Male,Severe tooth pain,Dental infection,Dental Abscess,Amoxicillin,Obese – metabolic risk,WHO Essential Medicines List
+Sneha Chopra,Female,Frequent infections,Immunocompromised,Type 2 Diabetes,Metformin,History of peptic ulcer,WHO Essential Medicines List
+Ramesh Chopra,Female,Chest tightness at night,Nocturnal asthma,Asthma,Salbutamol inhaler,No known drug allergies,StatPearls – Albuterol
+Pooja Nair,Female,Persistent cough,ACE inhibitor side effect,Drug-induced cough,Losartan,Obese – metabolic risk,WHO Hypertension Guideline
+Ramesh Nair,Female,Chest tightness at night,Nocturnal asthma,Asthma,Salbutamol inhaler,Obese – metabolic risk,StatPearls – Albuterol
+Manoj Mehta,Male,Sudden severe headache,Vascular cause,Migraine,Sumatriptan,Hypertensive – BP monitored,StatPearls – Sumatriptan
+Anil Bansal,Female,Frequent infections,Immunocompromised,Type 2 Diabetes,Metformin,Smoker – higher infection risk,WHO Essential Medicines List
+Pooja Iyer,Female,"Blurred vision, High glucose",Poor glycemic control,Type 2 Diabetes,Metformin,Smoker – higher infection risk,WHO Essential Medicines List
+Sahil Chopra,Female,"Sneezing, Nasal congestion",Allergic trigger,Allergic Rhinitis,Cetirizine,Hypertensive – BP monitored,WHO Essential Medicines List
+Ritu Nair,Male,Severe tooth pain,Dental infection,Dental Abscess,Amoxicillin,Hypertensive – BP monitored,WHO Essential Medicines List
+Sneha Bansal,Female,Severe tooth pain,Dental infection,Dental Abscess,Amoxicillin,Seasonal allergy history,WHO Essential Medicines List
+Ritu Chopra,Female,Persistent cough,ACE inhibitor side effect,Drug-induced cough,Losartan,Smoker – higher infection risk,WHO Hypertension Guideline
+Anil Sharma,Male,"Joint stiffness, Morning pain",Degenerative changes,Osteoarthritis,Ibuprofen,Elderly – renal function monitored,WHO Essential Medicines List
+Ramesh Kapoor,Male,Severe tooth pain,Dental infection,Dental Abscess,Amoxicillin,History of peptic ulcer,WHO Essential Medicines List
+Kavya Nair,Male,"Joint stiffness, Morning pain",Degenerative changes,Osteoarthritis,Ibuprofen,Obese – metabolic risk,WHO Essential Medicines List
+Sunita Bansal,Female,Chest tightness at night,Nocturnal asthma,Asthma,Salbutamol inhaler,Smoker – higher infection risk,StatPearls – Albuterol
+Sahil Mehta,Male,"Joint stiffness, Morning pain",Degenerative changes,Osteoarthritis,Ibuprofen,Smoker – higher infection risk,WHO Essential Medicines List
+Pooja Malhotra,Male,"Blurred vision, High glucose",Poor glycemic control,Type 2 Diabetes,Metformin,History of peptic ulcer,WHO Essential Medicines List
+Sunita Nair,Male,Burning epigastric pain,Acid overproduction,Peptic Ulcer Disease,Omeprazole,Smoker – higher infection risk,NICE GERD Guideline
+Ramesh Mehta,Male,Sudden severe headache,Vascular cause,Migraine,Sumatriptan,Elderly – renal function monitored,StatPearls – Sumatriptan
+Sunita Nair,Female,Lower abdominal pain,Bacterial infection,UTI,Nitrofurantoin,Elderly – renal function monitored,WHO Essential Medicines List
+Ramesh Nair,Male,Sudden severe headache,Vascular cause,Migraine,Sumatriptan,Obese – metabolic risk,StatPearls – Sumatriptan
+Anil Chopra,Female,Sudden severe headache,Vascular cause,Migraine,Sumatriptan,Family history of diabetes,StatPearls – Sumatriptan
+Pooja Bansal,Female,Severe tooth pain,Dental infection,Dental Abscess,Amoxicillin,Smoker – higher infection risk,WHO Essential Medicines List
+Aman Sharma,Female,Lower abdominal pain,Bacterial infection,UTI,Nitrofurantoin,Smoker – higher infection risk,WHO Essential Medicines List
+Sahil Iyer,Male,"Joint stiffness, Morning pain",Degenerative changes,Osteoarthritis,Ibuprofen,Family history of diabetes,WHO Essential Medicines List
+Ritu Iyer,Female,Burning epigastric pain,Acid overproduction,Peptic Ulcer Disease,Omeprazole,Hypertensive – BP monitored,NICE GERD Guideline
+Manoj Iyer,Male,Frequent infections,Immunocompromised,Type 2 Diabetes,Metformin,Seasonal allergy history,WHO Essential Medicines List
+Sneha Malhotra,Female,"Blurred vision, High glucose",Poor glycemic control,Type 2 Diabetes,Metformin,Seasonal allergy history,WHO Essential Medicines List
+Sunita Nair,Male,"Blurred vision, High glucose",Poor glycemic control,Type 2 Diabetes,Metformin,No known drug allergies,WHO Essential Medicines List
+Sunita Malhotra,Male,Frequent infections,Immunocompromised,Type 2 Diabetes,Metformin,No known drug allergies,WHO Essential Medicines List
+Aman Kapoor,Female,"Blurred vision, High glucose",Poor glycemic control,Type 2 Diabetes,Metformin,Family history of diabetes,WHO Essential Medicines List
+Aman Kapoor,Male,Frequent infections,Immunocompromised,Type 2 Diabetes,Metformin,Hypertensive – BP monitored,WHO Essential Medicines List
+Manoj Mehta,Female,"Sneezing, Nasal congestion",Allergic trigger,Allergic Rhinitis,Cetirizine,Elderly – renal function monitored,WHO Essential Medicines List
+Ritu Kapoor,Male,"Blurred vision, High glucose",Poor glycemic control,Type 2 Diabetes,Metformin,Obese – metabolic risk,WHO Essential Medicines List
+Aman Sharma,Female,"Joint stiffness, Morning pain",Degenerative changes,Osteoarthritis,Ibuprofen,History of peptic ulcer,WHO Essential Medicines List
+Aman Mehta,Female,"Sneezing, Nasal congestion",Allergic trigger,Allergic Rhinitis,Cetirizine,Smoker – higher infection risk,WHO Essential Medicines List
