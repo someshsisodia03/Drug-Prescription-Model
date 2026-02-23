@@ -23,7 +23,10 @@ CORS(app)  # Allow requests from the React dev server
 # ─── Dataset Path ────────────────────────────────────────────────────────────
 
 BASE_DIR   = os.path.dirname(os.path.abspath(__file__))
-CSV_PATH   = os.path.join(BASE_DIR, "..", "smart-health-advisor", "public", "data", "medication_dataset.csv")
+# Checks same folder first (for Render deployment), then falls back to dev path
+_local_csv = os.path.join(BASE_DIR, "medication_dataset.csv")
+_dev_csv   = os.path.join(BASE_DIR, "..", "smart-health-advisor", "public", "data", "medication_dataset.csv")
+CSV_PATH   = _local_csv if os.path.exists(_local_csv) else _dev_csv
 
 # ─── Load & Preprocess Dataset ───────────────────────────────────────────────
 
