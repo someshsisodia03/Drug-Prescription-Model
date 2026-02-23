@@ -1,0 +1,307 @@
+================================================================
+     SMART PRESCRIPTION AI — COMPLETE PRESENTATION NOTES
+================================================================
+
+
+----------------------------------------------------------------
+1. WHAT IS THE PROJECT?  (Opening)
+----------------------------------------------------------------
+
+"This project is an AI-powered medicine recommendation system
+called Smart Prescription AI."
+
+A patient enters their name, age, gender, and symptoms —
+and the system uses a Machine Learning model to recommend
+the most suitable and safest medicines.
+
+THE REAL-WORLD PROBLEM IT SOLVES:
+- Doctors and pharmacists see hundreds of patients daily.
+  A decision-support tool can quickly suggest medicines based
+  on symptoms so the doctor can verify, not start from scratch.
+- In rural or under-resourced clinics, a computer-aided tool
+  like this assists junior staff who may be less experienced.
+
+
+----------------------------------------------------------------
+2. SYSTEM ARCHITECTURE  (How it's Built)
+----------------------------------------------------------------
+
+There are TWO parts to this project:
+
+PART A — FRONTEND (What the user sees)
+  Built with: React + TypeScript + Vite
+  - The patient fills a form (name, age, gender, symptoms)
+  - It sends that data to the backend via HTTP
+  - Shows medicine recommendations with safety scores
+
+PART B — BACKEND (The brain / ML engine)
+  Built with: Python + Flask + scikit-learn
+  - A REST API running on localhost:5000
+  - Loads the dataset, builds the ML model at startup
+  - Answers recommendation requests in real-time
+
+HOW DATA FLOWS:
+
+  User fills form
+        |
+        v
+  React sends POST request to Flask API
+        |
+        v
+  Flask runs TF-IDF + Cosine Similarity
+        |
+        v
+  Returns top 5 medicines ranked by similarity
+        |
+        v
+  React displays results with scores and dosage
+
+
+----------------------------------------------------------------
+3. THE ML MODEL — TF-IDF + COSINE SIMILARITY
+----------------------------------------------------------------
+
+This is the most important part. Explained in 3 simple steps:
+
+------
+STEP 1 — "We converted medicines into numbers"
+------
+
+Each medicine has a list of symptoms it treats (from the dataset).
+We combine all of those into one text document per medicine:
+
+  Paracetamol  -->  "Headache Fatigue Fever Cough Headache Fatigue"
+  Ibuprofen    -->  "Back pain Joint pain Swelling Limited movement"
+  Amoxicillin  -->  "Sore throat Fever Difficulty swallowing Cough"
+
+Then we use TF-IDF (Term Frequency - Inverse Document Frequency)
+to convert these text documents into NUMBER VECTORS
+(like coordinates in space).
+
+  ANALOGY for teachers:
+  "Think of each medicine as a point on a map.
+   The coordinates of that point are determined by
+   which symptoms it treats."
+
+The result is a MATRIX of shape 17 x 157
+  - 17 medicines (rows)
+  - 157 numerical features (columns)
+
+
+------
+STEP 2 — "We converted the patient's symptoms into the same space"
+------
+
+When a patient enters symptoms like ["Fever", "Headache", "Fatigue"],
+we feed that into the SAME TF-IDF model —
+it becomes a vector in the same 157-dimensional space.
+
+
+------
+STEP 3 — "We found the closest medicines using Cosine Similarity"
+------
+
+We then measure the ANGLE between the patient's symptom vector
+and each medicine's vector.
+
+  Formula:
+  Cosine Similarity = cos(angle) = (A dot B) / (|A| x |B|)
+
+  - Score of 1.0 = perfect match (same direction, angle = 0)
+  - Score of 0.0 = no match at all (angle = 90 degrees)
+
+The medicines with the HIGHEST cosine similarity are returned
+as the top recommendations.
+
+  ANALOGY:
+  "If a patient says 'headache, fever' — we are asking which
+   medicine points in the same direction as that description."
+
+
+------
+WHY TF-IDF and not just word counting?
+------
+
+Because some symptoms like "pain" appear in almost every
+medicine. TF-IDF PENALISES those common words and gives
+more importance to UNIQUE/SPECIFIC symptoms.
+This makes the matching smarter.
+
+  TF  = how often a word appears in ONE medicine's document
+  IDF = penalises words that appear across MANY medicines
+  TF-IDF Score = TF x IDF
+
+
+------
+WHY COSINE SIMILARITY and not Euclidean distance?
+------
+
+Because we care about DIRECTION, not magnitude.
+A medicine that mentions "headache" 10 times vs 1 time
+shouldn't be ranked differently — what matters is that
+"headache" is present.
+Cosine similarity handles this correctly.
+
+
+------
+WHY BIGRAMS? (ngram_range = 1 to 2)
+------
+
+Bigrams capture TWO-WORD symptoms as a single unit.
+Examples:
+  "sore throat"  is more meaningful than "sore" + "throat"
+  "back pain"    is more meaningful than "back" + "pain"
+  "runny nose"   is more meaningful than "runny" + "nose"
+
+This significantly improves matching accuracy.
+
+
+----------------------------------------------------------------
+4. THE DATASET
+----------------------------------------------------------------
+
+File:   public/data/medication_dataset.csv
+Size:   61 patient cases, 17 unique medicines
+
+COLUMNS IN THE DATASET:
+  - Name           : Patient name (anonymised)
+  - DateOfBirth    : Patient date of birth
+  - Gender         : Male / Female
+  - Symptoms       : Comma-separated symptom list
+  - Causes         : Underlying cause of condition
+  - Disease        : Diagnosed condition
+  - Medicine       : Recommended medicine
+  - RiskFactors    : Contraindications and warnings
+  - SourceReference: Medical guideline source
+
+MEDICINES AND CONDITIONS COVERED:
+  Medicine                          | Condition
+  ----------------------------------|----------------------------------
+  Paracetamol                       | Tension headache, common cold
+  Ibuprofen                         | Back pain, osteoarthritis
+  Amoxicillin                       | Tonsillitis, pneumonia
+  Amoxicillin-clavulanate           | Cellulitis
+  Nitrofurantoin                    | Urinary tract infection (UTI)
+  Omeprazole                        | GERD, gastritis, peptic symptoms
+  Metformin                         | Type 2 Diabetes
+  Sumatriptan                       | Migraine
+  Sertraline                        | Depression
+  Lisinopril                        | Hypertension, heart disease
+  Albuterol (Salbutamol) inhaler    | Asthma, exercise-induced bronch.
+  Beta-blocker (Propranolol)        | SVT, anxiety
+  Topical chloramphenicol eye drops | Conjunctivitis
+  Flucloxacillin                    | Cellulitis (skin infection)
+  Epinephrine (IM)                  | Anaphylaxis (emergency)
+
+SOURCES:
+  - WHO Model List of Essential Medicines (2023)
+  - NICE UK Clinical Guidelines
+  - StatPearls, NCBI Bookshelf (2024)
+
+
+----------------------------------------------------------------
+5. TECH STACK
+----------------------------------------------------------------
+
+FRONTEND:
+  Technology        | Purpose
+  ------------------|---------------------------------------
+  React 18          | UI framework (component-based)
+  TypeScript        | Type-safe JavaScript
+  Vite              | Fast dev server and bundler
+  shadcn/ui         | Professional UI component library
+  Tailwind CSS      | Utility-first styling
+  React Router v6   | Client-side page routing
+  Lucide React      | Icon library
+
+BACKEND (ML ENGINE):
+  Technology        | Purpose
+  ------------------|---------------------------------------
+  Python 3.12       | Backend language
+  Flask 3           | Lightweight REST API framework
+  Flask-CORS        | Allows React to call Python API
+  scikit-learn      | TfidfVectorizer + cosine_similarity
+  pandas            | CSV loading and groupby aggregation
+  NumPy             | Matrix operations and sorting
+
+
+----------------------------------------------------------------
+6. SMART FALLBACK SYSTEM
+----------------------------------------------------------------
+
+If the Python backend is NOT running, the frontend does not crash.
+It automatically switches to a local JavaScript keyword-matching
+engine built inside the browser.
+
+  Green badge  =  "ML Backend Online"  (TF-IDF scikit-learn model)
+  Yellow badge =  "Local Fallback"     (keyword overlap in JS)
+
+The frontend probes the backend health endpoint on startup.
+If it doesn't respond within 3 seconds, it uses the local engine.
+
+Flow:
+  App starts
+      |
+      v
+  Probe GET /api/health  --- timeout/error --->  Use local JS engine
+      |                                               |
+      | 200 OK                            (keyword overlap scoring)
+      v
+  Use ML backend (TF-IDF)
+
+
+----------------------------------------------------------------
+7. LIVE DEMO FLOW  (What to show in the demo)
+----------------------------------------------------------------
+
+STEP 1:
+  Open the browser at http://localhost:8080
+  Point to the GREEN "ML Backend Online" badge in the top-right.
+  Say: "This badge confirms our scikit-learn Python model
+        is running and ready to accept requests."
+
+STEP 2:
+  Fill the patient form:
+    - Patient Name : anything (e.g. "Rahul Sharma")
+    - Age          : 35
+    - Gender       : Male
+    - Symptoms     : check Fever, Headache, Fatigue
+
+STEP 3:
+  Click "Get AI Recommendations"
+
+STEP 4:
+  On the RESULTS page, point to:
+
+  a) THE MODEL BANNER at the top of results:
+     "Powered by TF-IDF + Cosine Similarity (scikit-learn)
+      · 157 TF-IDF features · 17 medicines in corpus"
+     Say: "This tells us the ML model is being used,
+           not a simple rule-based system."
+
+  b) THE SIMILARITY BADGE on each medicine card:
+     e.g. "77.7% match"
+     Say: "This is the cosine similarity score between
+           the patient's symptoms and this medicine's
+           known symptom profile."
+
+  c) THE "WHY THIS MEDICINE?" SECTION:
+     e.g. "Matched via TF-IDF cosine similarity (77.7%).
+           Commonly indicated for: Tension Headache, Common Cold."
+     Say: "The system explains its reasoning — this is
+           model transparency / explainability."
+
+  d) THE SAFETY SCORE:
+     e.g. "93/100 — Highly Safe"
+     Say: "This is calculated from the risk factors and
+           contraindications column in the dataset."
+
+  e) THE DOSAGE:
+     e.g. "500–1000 mg every 4–6 hours as needed (max 4 g/day)"
+     Say: "Dosage information is looked up from a reference
+           table mapped to WHO and NICE guidelines."
+
+
+================================================================
+                     END OF PRESENTATION NOTES
+================================================================
