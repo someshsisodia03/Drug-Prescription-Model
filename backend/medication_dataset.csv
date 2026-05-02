@@ -99,3 +99,117 @@ Manoj Mehta,Female,"Sneezing, Nasal congestion",Allergic trigger,Allergic Rhinit
 Ritu Kapoor,Male,"Blurred vision, High glucose",Poor glycemic control,Type 2 Diabetes,Metformin,Obese – metabolic risk,WHO Essential Medicines List
 Aman Sharma,Female,"Joint stiffness, Morning pain",Degenerative changes,Osteoarthritis,Ibuprofen,History of peptic ulcer,WHO Essential Medicines List
 Aman Mehta,Female,"Sneezing, Nasal congestion",Allergic trigger,Allergic Rhinitis,Cetirizine,Smoker – higher infection risk,WHO Essential Medicines List
+Raj Verma,Male,"Runny nose, Sneezing, Mild fever",Viral infection,Common Cold,Cetirizine,No known drug allergies,WHO Essential Medicines List
+Priya Nair,Female,"Sore throat, Runny nose, Body ache",Viral upper respiratory infection,Common Cold,Paracetamol,Pregnancy – drug dose adjusted,WHO Essential Medicines List
+Amit Joshi,Male,"Cough, Congestion, Low grade fever",Viral infection,Common Cold,Paracetamol,Elderly – dose reduction considered,WHO Essential Medicines List
+Neha Gupta,Female,"Sneezing, Watery eyes, Nasal congestion",Seasonal allergy,Allergic Rhinitis,Loratadine,No known drug allergies,WHO Essential Medicines List
+Rahul Mehta,Male,"Itchy eyes, Sneezing, Runny nose",Pollen allergy,Allergic Rhinitis,Loratadine,Asthma – avoid beta-blockers,WHO Essential Medicines List
+Anita Das,Female,"Skin rash, Itching, Hives",Allergic reaction,Urticaria,Loratadine,Pregnancy – drug dose adjusted,WHO Essential Medicines List
+Vikram Singh,Male,"Hives, Swelling, Itching",Food allergy,Urticaria,Loratadine,On anticoagulant therapy – watch interactions,WHO Essential Medicines List
+Pooja Sharma,Female,"Sneezing, Itchy nose, Watery eyes",Dust mite allergy,Allergic Rhinitis,Loratadine,Elderly – renal function monitored,WHO Essential Medicines List
+Karan Patel,Male,"Dry cough, Throat irritation",Post-nasal drip,Dry Cough,Dextromethorphan,No known drug allergies,FDA Drug Safety Communication
+Sunita Rao,Female,"Persistent cough, Chest discomfort",Viral bronchitis,Acute Bronchitis,Dextromethorphan,Pregnancy – avoid in first trimester,FDA Drug Safety Communication
+Deepak Kumar,Male,"Night cough, Tickly throat",Allergic irritation,Dry Cough,Dextromethorphan,Diabetic – monitor blood sugar,FDA Drug Safety Communication
+Kavita Jain,Female,"Cough with mucus, Chest congestion",Lower respiratory infection,Productive Cough,Guaifenesin,No known drug allergies,WHO Essential Medicines List
+Manish Tiwari,Male,"Thick sputum, Difficulty breathing, Wet cough",Chronic bronchitis,Productive Cough,Guaifenesin,Smoker – higher infection risk,WHO Essential Medicines List
+Ritu Agarwal,Female,"Chest congestion, Mucus production, Cough",Viral infection,Productive Cough,Guaifenesin,Elderly – dose reduction considered,WHO Essential Medicines List
+Suresh Nair,Male,"Watery diarrhea, Stomach cramps",Food poisoning,Acute Diarrhea,Loperamide,Elderly – dehydration risk,WHO Essential Medicines List
+Anjali Bose,Female,"Loose stools, Nausea, Abdominal pain",Gastroenteritis,Acute Diarrhea,Loperamide,Pregnancy – avoid usage,WHO Essential Medicines List
+Rohit Khanna,Male,"Frequent loose motions, Dehydration",Viral gastroenteritis,Acute Diarrhea,Loperamide,No known drug allergies,WHO Essential Medicines List
+Meera Reddy,Female,"Diarrhea, Vomiting, Weakness",Traveler's diarrhea,Acute Diarrhea,Loperamide,On anticoagulant therapy – watch interactions,WHO Essential Medicines List
+Arjun Malhotra,Male,"Bloating, Abdominal pain, Diarrhea",Irritable bowel,IBS-Diarrhea,Loperamide,History of liver disease,WHO Essential Medicines List
+Pallavi Iyer,Female,"Constipation, Bloating, Hard stools",Inadequate fiber intake,Chronic Constipation,Lactulose,Pregnancy – safe to use,WHO Essential Medicines List
+Sanjay Gupta,Male,"Straining during bowel, Infrequent stools",Sedentary lifestyle,Chronic Constipation,Lactulose,Elderly – dose reduction considered,WHO Essential Medicines List
+Divya Kapoor,Female,"Abdominal discomfort, No bowel movement",Medication side effect,Chronic Constipation,Lactulose,Diabetic – monitor blood sugar,WHO Essential Medicines List
+Arun Sharma,Male,"Hard stools, Rectal pain",Low fiber diet,Chronic Constipation,Lactulose,No known drug allergies,WHO Essential Medicines List
+Nisha Patel,Female,"Bloating, Gas, Constipation",Pregnancy-related,Constipation in Pregnancy,Lactulose,Pregnancy – safe to use,WHO Essential Medicines List
+Tarun Verma,Male,"Itchy skin, Red patches, Flaking",Fungal infection,Tinea Corporis,Clotrimazole,No known drug allergies,WHO Essential Medicines List
+Rekha Saxena,Female,"White patches in mouth, Soreness",Oral candidiasis,Oral Thrush,Clotrimazole,Immunocompromised – monitor closely,WHO Essential Medicines List
+Ajay Mishra,Male,"Itchy groin, Red rash, Scaling",Fungal infection,Tinea Cruris,Clotrimazole,Diabetic – monitor blood sugar,WHO Essential Medicines List
+Sneha Joshi,Female,"Vaginal itching, Discharge, Burning",Yeast infection,Vaginal Candidiasis,Clotrimazole,Pregnancy – use with caution,WHO Essential Medicines List
+Mohan Pillai,Male,"Athletes foot, Cracking skin, Itching",Fungal infection,Tinea Pedis,Clotrimazole,Elderly – monitor skin integrity,WHO Essential Medicines List
+Geeta Rani,Female,"Ear pain, Reduced hearing, Discharge",Bacterial infection,Otitis Media,Amoxicillin,Allergic to penicillin,WHO antibiotic guidance
+Ramesh Yadav,Male,"Ear ache, Fever, Irritability",Middle ear infection,Otitis Media,Amoxicillin,No known drug allergies,WHO antibiotic guidance
+Shalini Das,Female,"Painful swallowing, White spots on tonsils, Fever",Streptococcal infection,Strep Throat,Amoxicillin,Allergic to penicillin,WHO antibiotic guidance
+Vivek Chopra,Male,"Sore throat, Swollen lymph nodes, Fever",Bacterial pharyngitis,Pharyngitis,Amoxicillin,On anticoagulant therapy – watch interactions,WHO antibiotic guidance
+Radha Menon,Female,"Burning urination, Pelvic pain, Cloudy urine",Urinary tract infection,Complicated UTI,Amoxicillin,Pregnancy – drug dose adjusted,WHO antibiotic guidance
+Prakash Sinha,Male,"Anxiety, Restlessness, Difficulty concentrating",Generalized anxiety,Generalized Anxiety Disorder,Escitalopram,Elderly – start low dose,NICE Anxiety Treatment Guideline
+Jyoti Verma,Female,"Panic attacks, Heart pounding, Sweating",Panic disorder,Panic Disorder,Escitalopram,Pregnancy – avoid if possible,NICE Anxiety Treatment Guideline
+Nikhil Rao,Male,"Persistent worry, Muscle tension, Sleep difficulty",Chronic anxiety,Generalized Anxiety Disorder,Escitalopram,History of liver disease,NICE Anxiety Treatment Guideline
+Swati Kapoor,Female,"Social anxiety, Avoidance behavior, Trembling",Social phobia,Social Anxiety Disorder,Escitalopram,No known drug allergies,NICE Anxiety Treatment Guideline
+Gaurav Mehta,Male,"Depressed mood, Loss of interest, Fatigue",Major depression,Major Depressive Disorder,Escitalopram,Suicidal ideation – close monitoring,NICE Depression Treatment Guideline
+Lakshmi Iyer,Female,"Fatigue, Weight gain, Cold intolerance",Hypothyroidism,Hypothyroidism,Levothyroxine,Elderly – start low dose,WHO Essential Medicines List
+Sunil Reddy,Male,"Tiredness, Dry skin, Constipation",Thyroid deficiency,Hypothyroidism,Levothyroxine,Cardiac patient – dose with caution,WHO Essential Medicines List
+Anupama Bhat,Female,"Hair loss, Weight gain, Depression",Underactive thyroid,Hypothyroidism,Levothyroxine,Pregnancy – dose adjustment needed,WHO Essential Medicines List
+Rajesh Pillai,Male,"Muscle weakness, Brain fog, Fatigue",Thyroid deficiency,Hypothyroidism,Levothyroxine,Diabetic – monitor blood sugar,WHO Essential Medicines List
+Meenakshi Nair,Female,"Puffy face, Slow heart rate, Fatigue",Severe hypothyroidism,Hypothyroidism,Levothyroxine,Elderly – cardiac risk,WHO Essential Medicines List
+Dheeraj Saxena,Male,"Muscle spasm, Back stiffness, Pain",Muscle strain,Acute Muscle Spasm,Cyclobenzaprine,Elderly – sedation risk,FDA Drug Safety Communication
+Asha Kumari,Female,"Neck pain, Muscle tightness, Limited mobility",Cervical strain,Neck Strain,Cyclobenzaprine,Pregnancy – avoid usage,FDA Drug Safety Communication
+Vinod Gupta,Male,"Lower back spasm, Difficulty bending, Pain",Lumbar strain,Lower Back Spasm,Cyclobenzaprine,History of liver disease,FDA Drug Safety Communication
+Poonam Sharma,Female,"Shoulder stiffness, Muscle cramp, Pain",Overuse injury,Muscle Strain,Cyclobenzaprine,No known drug allergies,FDA Drug Safety Communication
+Manoj Rao,Male,"Leg cramp, Muscle tightness, Difficulty walking",Exercise injury,Muscle Cramp,Cyclobenzaprine,Elderly – fall risk,FDA Drug Safety Communication
+Seema Jain,Female,"Fatigue, Pale skin, Shortness of breath",Iron deficiency,Iron Deficiency Anemia,Ferrous Sulfate,Pregnancy – dose adjustment needed,WHO Essential Medicines List
+Anil Kumar,Male,"Weakness, Dizziness, Brittle nails",Low iron levels,Iron Deficiency Anemia,Ferrous Sulfate,History of gastritis – avoid NSAIDs,WHO Essential Medicines List
+Preeti Bose,Female,"Tiredness, Headache, Cold hands",Nutritional deficiency,Iron Deficiency Anemia,Ferrous Sulfate,Vegetarian – dietary counseling,WHO Essential Medicines List
+Santosh Mehta,Male,"Pale skin, Rapid heartbeat, Fatigue",Chronic blood loss,Iron Deficiency Anemia,Ferrous Sulfate,Elderly – GI side effects common,WHO Essential Medicines List
+Kamla Devi,Female,"Hair loss, Fatigue, Spoon-shaped nails",Severe iron deficiency,Iron Deficiency Anemia,Ferrous Sulfate,Pregnancy – essential supplement,WHO Essential Medicines List
+Aditya Singh,Male,"High blood pressure, Headache, Dizziness",Essential hypertension,Hypertension,Amlodipine,Elderly – start low dose,NICE Hypertension Guideline
+Shobha Menon,Female,"Elevated BP, Facial flushing, Palpitations",Primary hypertension,Hypertension,Amlodipine,Pregnancy – avoid usage,NICE Hypertension Guideline
+Vijay Nair,Male,"Persistent headache, Blurred vision, High BP",Uncontrolled hypertension,Hypertension,Amlodipine,Kidney disease – dose adjustment,NICE Hypertension Guideline
+Lata Rao,Female,"Ankle swelling, High BP, Fatigue",Hypertension with edema,Hypertension,Amlodipine,Liver disease – use with caution,NICE Hypertension Guideline
+Harish Verma,Male,"Chest tightness, High BP, Shortness of breath",Hypertensive crisis,Hypertension,Amlodipine,Diabetic – monitor BP closely,NICE Hypertension Guideline
+Meghna Shah,Female,"Nausea, Vomiting, Motion sickness",Vestibular disturbance,Motion Sickness,Meclizine,Pregnancy – use with caution,FDA Drug Safety Communication
+Pawan Kumar,Male,"Dizziness, Nausea, Balance problems",Inner ear disorder,Vertigo,Meclizine,Elderly – sedation risk,FDA Drug Safety Communication
+Rashmi Joshi,Female,"Spinning sensation, Nausea, Vomiting",BPPV,Vertigo,Meclizine,No known drug allergies,FDA Drug Safety Communication
+Sudhir Pillai,Male,"Travel nausea, Vomiting, Sweating",Motion sensitivity,Motion Sickness,Meclizine,Glaucoma – avoid anticholinergics,FDA Drug Safety Communication
+Nandini Rao,Female,"Dizziness, Ear fullness, Nausea",Meniere's disease,Vertigo,Meclizine,Elderly – fall risk,FDA Drug Safety Communication
+Ashok Tiwari,Male,"Acid reflux, Chest burning, Sour taste",Chronic GERD,GERD,Pantoprazole,History of osteoporosis,NICE GERD Treatment Guideline
+Sunanda Kapoor,Female,"Stomach ulcer pain, Burning sensation, Nausea",H. pylori infection,Peptic Ulcer,Pantoprazole,Elderly – long-term use caution,NICE GERD Treatment Guideline
+Rajiv Malhotra,Male,"Epigastric pain, Bloating, Acid taste",Gastritis,Chronic Gastritis,Pantoprazole,On anticoagulant therapy – watch interactions,NICE GERD Treatment Guideline
+Deepa Sharma,Female,"Heartburn after meals, Regurgitation, Chest pain",Lifestyle-related GERD,GERD,Pantoprazole,Pregnancy – avoid if possible,NICE GERD Treatment Guideline
+Gopal Reddy,Male,"Upper abdominal pain, Nausea, Loss of appetite",NSAID-induced gastritis,Drug-Induced Gastritis,Pantoprazole,History of gastritis – avoid NSAIDs,NICE GERD Treatment Guideline
+Ranjana Bose,Female,"Wheezing, Cough at night, Chest tightness",Allergic asthma,Bronchial Asthma,Montelukast,Allergic to aspirin,NICE Asthma Guideline
+Siddharth Nair,Male,"Exercise-induced wheeze, Shortness of breath",Exercise-triggered asthma,Exercise-Induced Asthma,Montelukast,No known drug allergies,NICE Asthma Guideline
+Prerna Gupta,Female,"Seasonal wheeze, Runny nose, Cough",Allergic asthma with rhinitis,Asthma with Allergic Rhinitis,Montelukast,Pregnancy – use if clearly needed,NICE Asthma Guideline
+Umesh Yadav,Male,"Night cough, Chest tightness, Difficulty breathing",Nocturnal asthma,Bronchial Asthma,Montelukast,Elderly – monitor liver function,NICE Asthma Guideline
+Bhavna Desai,Female,"Wheezing, Nasal congestion, Sneezing",Allergic trigger,Asthma with Allergic Rhinitis,Montelukast,History of depression – monitor mood,NICE Asthma Guideline
+Atul Saxena,Male,"Burning urination, Lower abdominal pain, Urgency",Bacterial UTI,Lower Urinary Tract Infection,Ciprofloxacin,Elderly – tendon rupture risk,WHO antibiotic guidance
+Smita Patel,Female,"Painful urination, Fever, Flank pain",Kidney infection,Pyelonephritis,Ciprofloxacin,Pregnancy – avoid fluoroquinolones,WHO antibiotic guidance
+Hemant Joshi,Male,"Frequent urination, Cloudy urine, Pelvic pain",Complicated UTI,Complicated UTI,Ciprofloxacin,On anticoagulant therapy – watch interactions,WHO antibiotic guidance
+Namrata Rao,Female,"Diarrhea, Abdominal cramps, Fever",Bacterial gastroenteritis,Bacterial Gastroenteritis,Ciprofloxacin,Allergic to fluoroquinolones,WHO antibiotic guidance
+Dinesh Verma,Male,"Burning urination, Blood in urine, Urgency",Severe UTI,Hemorrhagic Cystitis,Ciprofloxacin,Kidney disease – dose adjustment,WHO antibiotic guidance
+Aparna Iyer,Female,"Acne, Pimples, Oily skin",Hormonal acne,Acne Vulgaris,Benzoyl Peroxide,Pregnancy – use with caution,AAD Acne Treatment Guideline
+Kunal Mehta,Male,"Blackheads, Whiteheads, Inflamed skin",Clogged pores,Acne Vulgaris,Benzoyl Peroxide,No known drug allergies,AAD Acne Treatment Guideline
+Tanvi Shah,Female,"Painful cysts, Scarring acne, Red bumps",Severe acne,Cystic Acne,Benzoyl Peroxide,Sensitive skin – start low concentration,AAD Acne Treatment Guideline
+Sahil Reddy,Male,"Back acne, Chest acne, Oily skin",Excess sebum,Body Acne,Benzoyl Peroxide,Eczema – avoid on affected areas,AAD Acne Treatment Guideline
+Pooja Verma,Female,"Forehead pimples, Comedones",Stress-related acne,Acne Vulgaris,Benzoyl Peroxide,Dry skin – use moisturizer alongside,AAD Acne Treatment Guideline
+Varun Kapoor,Male,"Cough, Fever, Green sputum",Bacterial chest infection,Bacterial Bronchitis,Azithromycin,Allergic to penicillin – macrolide alternative,WHO antibiotic guidance
+Nidhi Sharma,Female,"Sinus pain, Facial pressure, Thick discharge",Bacterial sinusitis,Acute Sinusitis,Azithromycin,Pregnancy – use if clearly needed,WHO antibiotic guidance
+Ajit Menon,Male,"Sore throat, Difficulty swallowing, Fever",Bacterial pharyngitis,Pharyngitis,Azithromycin,Liver disease – use with caution,WHO antibiotic guidance
+Shweta Jain,Female,"Ear pain, Fever, Pus discharge",Acute otitis media,Otitis Media,Azithromycin,Allergic to penicillin,WHO antibiotic guidance
+Kishore Nair,Male,"Persistent cough, Low fever, Fatigue",Walking pneumonia,Atypical Pneumonia,Azithromycin,Elderly – QT prolongation risk,WHO antibiotic guidance
+Madhuri Rao,Female,"Severe menstrual cramps, Lower back pain, Nausea",Dysmenorrhea,Dysmenorrhea,Mefenamic Acid,History of gastritis – avoid NSAIDs,WHO Essential Medicines List
+Aniket Desai,Male,"Dental pain, Jaw swelling, Throbbing ache",Post-extraction pain,Dental Pain,Mefenamic Acid,On anticoagulant therapy – watch interactions,WHO Essential Medicines List
+Shreya Bhat,Female,"Period pain, Bloating, Headache",Primary dysmenorrhea,Dysmenorrhea,Mefenamic Acid,Kidney disease – dose adjustment,WHO Essential Medicines List
+Saurabh Pillai,Male,"Mild fever, Body ache, General malaise",Viral fever,Viral Fever,Mefenamic Acid,No known drug allergies,WHO Essential Medicines List
+Chitra Menon,Female,"Heavy periods, Cramps, Fatigue",Menorrhagia,Heavy Menstrual Bleeding,Mefenamic Acid,Pregnancy – avoid usage,WHO Essential Medicines List
+Naveen Kumar,Male,"Wheezing, Shortness of breath, Chest tightness",Allergic asthma,Bronchial Asthma,Budesonide Inhaler,No known drug allergies,NICE Asthma Guideline
+Ranjita Nair,Female,"Persistent cough, Difficulty breathing, Wheeze",Chronic asthma,Bronchial Asthma,Budesonide Inhaler,Oral thrush risk – rinse mouth after use,NICE Asthma Guideline
+Ashwin Reddy,Male,"Morning wheeze, Exercise intolerance, Cough",Moderate persistent asthma,Bronchial Asthma,Budesonide Inhaler,Elderly – monitor bone density,NICE Asthma Guideline
+Jaya Sharma,Female,"Seasonal wheeze, Night cough, Breathlessness",Allergic asthma,Bronchial Asthma,Budesonide Inhaler,Pregnancy – use if clearly needed,NICE Asthma Guideline
+Nitin Gupta,Male,"Allergic cough, Nasal congestion, Wheeze",Asthma with allergy,Asthma with Allergic Rhinitis,Budesonide Inhaler,Diabetic – monitor blood sugar,NICE Asthma Guideline
+Padma Iyer,Female,"Nausea, Vomiting, Loss of appetite",Chemotherapy side effect,Chemotherapy-Induced Nausea,Ondansetron,Pregnancy – use with caution,WHO Essential Medicines List
+Ramakant Bose,Male,"Vomiting, Stomach upset, Dizziness",Post-operative nausea,Post-Operative Nausea,Ondansetron,Elderly – QT prolongation risk,WHO Essential Medicines List
+Sushma Kapoor,Female,"Severe nausea, Retching, Dehydration",Hyperemesis,Severe Nausea and Vomiting,Ondansetron,Liver disease – dose adjustment,WHO Essential Medicines List
+Trilok Sharma,Male,"Morning sickness, Food aversion, Vomiting",Pregnancy-related nausea,Morning Sickness,Ondansetron,Pregnancy – second/third trimester only,WHO Essential Medicines List
+Usha Patel,Female,"Nausea after eating, Bloating, Vomiting",Gastroparesis,Gastroparesis,Ondansetron,Diabetic – monitor blood sugar,WHO Essential Medicines List
+Alok Mishra,Male,"Knee pain, Stiffness, Difficulty climbing stairs",Degenerative joint disease,Osteoarthritis,Diclofenac,Kidney disease – dose adjustment,WHO Essential Medicines List
+Bindu Nair,Female,"Shoulder pain, Swelling, Limited range of motion",Rotator cuff injury,Shoulder Tendinitis,Diclofenac,History of gastritis – avoid NSAIDs,WHO Essential Medicines List
+Chandresh Yadav,Male,"Ankle sprain, Swelling, Bruising",Ligament injury,Ankle Sprain,Diclofenac,On anticoagulant therapy – watch interactions,WHO Essential Medicines List
+Damini Reddy,Female,"Wrist pain, Numbness, Tingling",Repetitive strain,Carpal Tunnel Syndrome,Diclofenac,Pregnancy – avoid in third trimester,WHO Essential Medicines List
+Eknath Joshi,Male,"Hip pain, Grinding sensation, Stiffness",Joint degeneration,Osteoarthritis,Diclofenac,Elderly – cardiovascular risk with NSAIDs,WHO Essential Medicines List
+Falguni Shah,Female,"High blood sugar, Increased thirst, Frequent urination",Insulin resistance,Type 2 Diabetes,Glipizide,Elderly – hypoglycemia risk,WHO Essential Medicines List
+Girish Tiwari,Male,"Polyuria, Polydipsia, Weight loss",Uncontrolled diabetes,Type 2 Diabetes,Glipizide,Kidney disease – dose adjustment,WHO Essential Medicines List
+Hema Kapoor,Female,"Fatigue, Blurred vision, Slow healing wounds",Poor glycemic control,Type 2 Diabetes,Glipizide,Liver disease – use with caution,WHO Essential Medicines List
+Indrajit Bose,Male,"Tingling in feet, High glucose, Thirst",Diabetic neuropathy risk,Type 2 Diabetes,Glipizide,History of hypoglycemia episodes,WHO Essential Medicines List
+Jayshree Nair,Female,"Recurrent infections, High blood sugar, Fatigue",Chronic hyperglycemia,Type 2 Diabetes,Glipizide,Pregnancy – switch to insulin,WHO Essential Medicines List

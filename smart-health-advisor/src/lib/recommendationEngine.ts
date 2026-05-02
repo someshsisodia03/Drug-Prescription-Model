@@ -3,6 +3,8 @@
  *
  * PRIMARY:  Calls the Python/Flask TF-IDF backend (localhost:5000)
  * FALLBACK: Local keyword-overlap algorithm (no backend required)
+ *
+ * CHAT MODE: Iterative refinement via /api/chat for multi-turn diagnosis
  */
 
 export interface Recommendation {
@@ -35,6 +37,44 @@ export interface PatientData {
     symptoms: string[];
 }
 
+// ─── Chat Types ─────────────────────────────────────────────────────────────
+
+export interface ChatCandidate {
+    medicine: string;
+    score: number;
+    diseases: string;
+}
+
+export interface ChatResponse {
+    status: "needs_more_info" | "resolved" | "no_match";
+    // Present when status === "needs_more_info"
+    candidates?: ChatCandidate[];
+    followUpQuestions?: string[];
+    message?: string;
+    // Present when status === "resolved"
+    recommendations?: Recommendation[];
+    disclaimer?: string;
+    model?: {
+        name: string;
+        library: string;
+        features: number;
+        corpus: number;
+    };
+    // Always present
+    symptomMapping?: Record<string, string[]>;
+    round?: number;
+    // Present when status === "no_match"
+    confirmedSymptoms?: string[];
+}
+
+export interface ChatRequest {
+    confirmed: string[];
+    denied: string[];
+    age: number;
+    gender: string;
+    round: number;
+}
+
 const BACKEND_URL = import.meta.env.VITE_BACKEND_URL || "https://drug-prescription-model.onrender.com";
 
 // ─── ML Backend (TF-IDF + Cosine Similarity) ─────────────────────────────────
@@ -59,6 +99,29 @@ async function fetchFromMLBackend(
         return { ...data, source: "ml-backend" };
     } catch (err) {
         console.warn("[ML Backend] Unavailable, using local fallback:", err);
+        return null;
+    }
+}
+
+// ─── Chat Endpoint (Iterative Refinement) ────────────────────────────────────
+
+export async function chatWithBackend(req: ChatRequest): Promise<ChatResponse | null> {
+    try {
+        const response = await fetch(`${BACKEND_URL}/api/chat`, {
+            method: "POST",
+            headers: { "Content-Type": "application/json" },
+            body: JSON.stringify(req),
+            signal: AbortSignal.timeout(8000),
+        });
+
+        if (!response.ok) {
+            console.warn("[Chat] HTTP error:", response.status);
+            return null;
+        }
+
+        return await response.json();
+    } catch (err) {
+        console.warn("[Chat] Backend unavailable:", err);
         return null;
     }
 }
@@ -122,22 +185,22 @@ async function fetchAndParseMedications(): Promise<Map<string, MedicineEntry>> {
 }
 
 const DOSAGE_MAP: Record<string, string> = {
-    "ibuprofen": "200–400 mg every 6–8 hours with food (max 1200 mg/day OTC)",
-    "paracetamol": "500–1000 mg every 4–6 hours as needed (max 4 g/day)",
-    "amoxicillin": "250–500 mg three times daily for 5–7 days as prescribed",
-    "amoxicillin-clavulanate": "500/125 mg three times daily for 5–7 days",
-    "nitrofurantoin": "50–100 mg four times daily for 5–7 days (UTI)",
-    "omeprazole": "20 mg once daily before a meal for 4–8 weeks",
+    "ibuprofen": "200-400 mg every 6-8 hours with food (max 1200 mg/day OTC)",
+    "paracetamol": "500-1000 mg every 4-6 hours as needed (max 4 g/day)",
+    "amoxicillin": "250-500 mg three times daily for 5-7 days as prescribed",
+    "amoxicillin-clavulanate": "500/125 mg three times daily for 5-7 days",
+    "nitrofurantoin": "50-100 mg four times daily for 5-7 days (UTI)",
+    "omeprazole": "20 mg once daily before a meal for 4-8 weeks",
     "metformin": "Start 500 mg twice daily with meals; titrate as prescribed",
     "sumatriptan": "50 mg at onset of migraine; may repeat after 2 h (max 200 mg/day)",
     "sertraline": "50 mg once daily; may be titrated to 200 mg/day",
-    "lisinopril": "Start 5–10 mg once daily; adjust per blood pressure response",
-    "albuterol": "1–2 puffs (100 mcg/puff) every 4–6 hours as needed",
-    "salbutamol": "1–2 puffs (100 mcg/puff) every 4–6 hours as needed",
-    "propranolol": "10–40 mg two to three times daily as prescribed",
-    "chloramphenicol": "1–2 drops affected eye(s) every 2–6 hours for 5 days",
-    "flucloxacillin": "250–500 mg four times daily as prescribed",
-    "epinephrine": "0.3–0.5 mg intramuscularly in the outer thigh (emergency)",
+    "lisinopril": "Start 5-10 mg once daily; adjust per blood pressure response",
+    "albuterol": "1-2 puffs (100 mcg/puff) every 4-6 hours as needed",
+    "salbutamol": "1-2 puffs (100 mcg/puff) every 4-6 hours as needed",
+    "propranolol": "10-40 mg two to three times daily as prescribed",
+    "chloramphenicol": "1-2 drops affected eye(s) every 2-6 hours for 5 days",
+    "flucloxacillin": "250-500 mg four times daily as prescribed",
+    "epinephrine": "0.3-0.5 mg intramuscularly in the outer thigh (emergency)",
 };
 
 function getDosage(name: string): string {
