@@ -6,7 +6,6 @@ services:
     rootDir: backend
     buildCommand: pip install -r requirements.txt
     startCommand: gunicorn app:app --bind 0.0.0.0:$PORT
-    plan: free
     envVars:
       - key: PYTHON_VERSION
         value: "3.11.0"
@@ -18,7 +17,6 @@ services:
     rootDir: smart-health-advisor
     buildCommand: npm install && npm run build
     staticPublishPath: dist
-    plan: free
     envVars:
       - key: VITE_BACKEND_URL
         value: https://drug-prescription-backend.onrender.com
